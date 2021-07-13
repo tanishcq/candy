@@ -6,7 +6,7 @@
 body {
     overflow: auto;
     overflow-x: hidden;
-    background-color: #fcc1b7;
+    background-color: #f7d0c9;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -14,7 +14,7 @@ body {
     color: #ea1c2c;
 }
 
-#candy{
+#candy {
     font-size: larger;
 }
 
@@ -31,34 +31,52 @@ body {
     font-weight: 100;
 }
 
-#headingGroup span{
+#headingGroup span {
     color: #ea1c2c;
 }
 
-#headingGroup h1{
+#headingGroup h1 {
     font-weight: 100;
     font-size: 4rem;
 }
 
-@media (max-width: 1392px){
-    #headingGroup h1{
+.blurb h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #ff79a5;
+    font-weight: 100;
+    font-size: 1.125rem;
+}
+
+.navbar.scrolled{
+    background: rgb(222, 192, 222);
+}
+
+.content{
+    margin-top: 40px;
+}
+
+@media (max-width: 1392px) {
+    #headingGroup h1 {
         font-weight: 100;
         font-size: 2.5rem;
     }
 }
 
-@media (max-width: 1200px){
-    #headingGroup h1{
+@media (max-width: 1200px) {
+    #headingGroup h1 {
         font-weight: 100;
         font-size: 2rem;
     }
 }
 
-@media (max-width: 1100px){
-    #headingGroup h1{
+@media (max-width: 1100px) {
+    #headingGroup h1 {
         font-weight: 100;
         font-size: 1.5rem;
     }
 }
-
-
